@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Mouse+Memoirs&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700&display=swap');
+/* ----------------NAV START------------------ */
+
+.nav_quary{
+    background-color: #fc5d35 !important;
+    color: white !important;
+    outline: none;
+    border: none;
+}
+.nav_txt{
+    font-weight: 700;
+    margin-top: 1rem !important;
+}
+/* ----------------NAV END------------------ */
+
+
+/* ----------------Slider Start------------------ */
+
+#slider{
+    overflow: hidden;
+}
+.mymainheading{
+    font-family: 'Mouse Memoirs', sans-serif;
+    font-weight: 400;
+    font-size: 4rem;
+}
+
+.myp{
+    font-family: 'Bitter', serif;
+    line-height: 2rem;
+}
+.btn1 {
+    padding: 0.6rem 2.7rem !important;
+    border: none;
+    background-color: #fc5d35 !important;
+    color: white !important;
+    border: 1px solid #fc5d35 !important;
+}
+.btn2 {
+    padding: 0.6rem 2.5rem !important;
+    border: none;
+    background-color: black !important;
+    color: white !important;
+}
+.btnhover :hover{
+    background-color: transparent !important;
+    color: #fc5d35 !important;
+    border: 1px solid #fc5d35 !important;
+    transition: 0.2s;
+}
+.btnhover2 :hover{
+    background-color: transparent !important;
+    color: black !important;
+    border: 1px solid black !important;
+    transition: 0.2s;
+}    
+.sliderimg{
+    width: 90%;
+    /* padding-top: 8rem !important; */
+}
+/* ----------------Slider End------------------ */
+
+
+
+
+
+
+/* ----------------Services start------------------ */
+
+.card-img-top{
+    width: 3.125rem;
+}
+
+.service3 {
+    border: 1px solid #fc5d35;
+    -webkit-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.2);
+} 
+.mysubheading{
+    font-family: 'Merriweather', serif;
+}
+.myheadingspan{
+    font-family: 'Bitter', serif;
+    line-height: 2rem;
+}
+.mybtn {
+    background-color: black !important;
+    color: white !important;
+}
+.mybtn :hover {
+    background-color: white !important;
+    color: black !important;
+    border: 1px solid black !important;
+}
+.mybtna{
+    text-decoration: none;
+    color: white;
+}
+/* ----------------Services End------------------ */
+
+
+
+
+/* ----------------Services End------------------ */
+.fruitsimg{
+    width: 15.625rem;
+}
+.fruitsimg_error_2{
+    width: 7.5rem;
+}
+
+
+/* ----------------Services End------------------ */
+
+
+
+@media only screen and (max-width: 991px){
+    .nav_quary {
+        margin-top: 0.5rem !important;
+        
+    }
+
+}    
+
+
+
+
