@@ -2,7 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700&display=swap');
 /* ----------------NAV START------------------ */
-
 .nav_quary{
     background-color: #fc5d35 !important;
     color: white !important;
@@ -14,10 +13,7 @@
     margin-top: 1rem !important;
 }
 /* ----------------NAV END------------------ */
-
-
 /* ----------------Slider Start------------------ */
-
 #slider{
     overflow: hidden;
 }
@@ -26,7 +22,6 @@
     font-weight: 400;
     font-size: 4rem;
 }
-
 .myp{
     font-family: 'Bitter', serif;
     line-height: 2rem;
@@ -61,24 +56,22 @@
     /* padding-top: 8rem !important; */
 }
 /* ----------------Slider End------------------ */
-
-
-
-
-
-
 /* ----------------Services start------------------ */
-
 .card-img-top{
     width: 3.125rem;
 }
-
 .service3 {
-    border: 1px solid #fc5d35;
     -webkit-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.2);
     -moz-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.2);
     box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.2);
 } 
+.hover{
+    border-top: 3px solid white ;
+}
+.hover:hover{
+    border-top: 3px solid #fc5d35;
+    transition: 0.3s;
+}
 .mysubheading{
     font-family: 'Merriweather', serif;
 }
@@ -100,29 +93,133 @@
     color: white;
 }
 /* ----------------Services End------------------ */
-
-
-
-
-/* ----------------Services End------------------ */
+/* ----------------fruit End------------------ */
 .fruitsimg{
     width: 15.625rem;
 }
 .fruitsimg_error_2{
     width: 7.5rem;
 }
+/* ----------------fruit End------------------ */
+/* ----------------very-tasty-food start------------------ */
+#vtf{
+    overflow: hidden;
+}
+.vtfh1{
+    font-size: 7.813rem;
+    background-image: url(../image/tasty-image.png);
+    width: 100%;
+    height: 31.25rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: white !important;
+    
+}
+/* ----------------very-tasty-food End------------------ */
+/* ----------------contact start------------------ */
+#contact{
+    overflow: hidden;
+}
+.contactinput{
+    border: none;
+    outline: none;
+    border-bottom: .8px solid #252525;
+    width: 90%;
+    margin: 10px 0;
+}
+.contactbtn {
+    border: none;
+    background-color: #fc5d35;
+    color: #fff;
+    padding: 8px 40px;
+    text-transform: uppercase;
+    font-size: 14px;
+  }
+  .contactbg{
+    background-image: url(../image/orange-dish.png);
+    background-repeat: no-repeat;
+    background-size: 12.438rem;
+    background-position: right center;
+}
+/* ----------------contact end------------------ */
+/* ----------------google-map-start ------------------ */
+/* ?????????????????????????????????????????? */
+/* ----------------google-map-end------------------ */
+/* ----------------footer start------------------ */
+.footernav li{
+    list-style: none;
+    margin-left: -2.1rem;
+}
+.socialgroup a img{
+    width: 2rem;
+    margin-right: 0.3rem;
+}
+.subbtn{
+    border: 1px solid black;
+}
+.marginclass{
+    margin-top: 1rem !important;
+}
+.marginclass1{
+    margin-top: 0.5rem !important;
+    background-color: #fc5d35 !important;
+    color: white !important;
+    border: none;
+}
+.footerbox{
+    border-right: 1px solid #8080807a;
+}
+
+.copyrightfooter{
+    background-color: #6c757d38!important;
+}
+
+/* ----------------footer end------------------ */
+/* ----------------overflow hidden Start------------------ */
 
 
-/* ----------------Services End------------------ */
-
-
-
+#header{
+    overflow: hidden;
+}
+#slider{
+    overflow: hidden;
+}
+#services{
+    overflow: hidden;
+}
+#fruits{
+    overflow: hidden;
+}
+#vtf{
+    overflow: hidden;
+}
+#testimonial{
+    overflow: hidden;
+}
+#contact{
+    overflow: hidden;
+}
+#footer{
+    overflow: hidden;
+}
+#copyright{
+    overflow: hidden;
+}
+/* ----------------overflow hidden end------------------ */
 @media only screen and (max-width: 991px){
     .nav_quary {
         margin-top: 0.5rem !important;
-        
     }
-
+}    
+@media only screen and (max-width: 768px){
+    .vtfh1 {
+        font-size: 5rem !important;
+    }
 }    
 
 
