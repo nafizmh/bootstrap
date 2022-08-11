@@ -174,7 +174,9 @@
 .footerbox{
     border-right: 1px solid #8080807a;
 }
-
+.footcolor{
+    background-color: #6c757d38;
+}
 .copyrightfooter{
     background-color: #6c757d38!important;
 }
